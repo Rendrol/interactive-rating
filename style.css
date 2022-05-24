@@ -18,17 +18,24 @@ body {
     rgba(37, 45, 55, 0.3) 100%
   );
   border-radius: 15px;
+  box-sizing: border-box;
   display: inline-block;
   position: relative;
   top: 25vh;
-  width: 270px;
+  width: 335px;
   margin: 10px;
-  padding: 30px;
+  padding: 20px;
   text-align: left;
 }
 
-.card h1 {
+h1 {
   color: white;
+  font-size: 25px;
+}
+
+.intro-text {
+  line-height: 1.5;
+  margin-bottom: 25px;
 }
 
 /* rating-section */
@@ -36,8 +43,8 @@ body {
   border-radius: 50%;
   background-color: rgba(124, 135, 152, 0.1);
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   text-align: center;
   margin-right: 13px;
   cursor: pointer;
@@ -45,9 +52,12 @@ body {
 #rating-section span:last-of-type {
   margin-right: 0;
 }
+
 #rating-section span p,
 #rating-section span img {
-  margin-top: 12px;
+  margin-top: 15px;
+}
+#rating-section span img {
   transform: scale(0.8, 0.8);
 }
 
@@ -56,17 +66,32 @@ body {
   background-color: hsl(25, 97%, 53%);
   border-radius: 25px;
   color: white;
-  width: 260px;
-  height: 35px;
-  margin: 20px 0 0 0;
+  width: 280px;
+  height: 50px;
+  letter-spacing: 2px;
+  margin: 25px 0 10px 10px;
   cursor: pointer;
+}
+
+/* rating section hover effect */
+#rating-section button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+#rating-section .rating:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
 }
 
 /* attribution */
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: relative;
+  top: 50vh;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
