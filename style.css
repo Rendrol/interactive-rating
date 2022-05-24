@@ -89,6 +89,18 @@ h1 {
   text-align: center;
 }
 
+#thankyou-section img {
+  margin: 20px;
+}
+
+.rating-result {
+  background-color: rgba(124, 135, 152, 0.1);
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+  display: inline-block;
+  padding: 8px 15px;
+}
+
 /* attribution */
 .attribution {
   font-size: 11px;
