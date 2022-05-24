@@ -57,6 +57,17 @@ let rating = $(".rating").index(this) + 1;
 $(".rating-result").text("You selected " + rating + " out of 5");
 ```
 
+Nesting the event handler for Redirecting page inside the event handler of rating, so that user could only submit and redirect after clicking the rating point.
+
+```js
+$(".rating").click(function (e) {
+  $("button").click(function (e) {
+    $(".rating-result").text("You selected " + rating + " out of 5");
+    window.location.replace("./thankyou.html");
+  });
+});
+```
+
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
