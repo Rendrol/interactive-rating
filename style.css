@@ -84,6 +84,11 @@ h1 {
   color: white;
 }
 
+/* thank you section */
+#thankyou-section {
+  text-align: center;
+}
+
 /* attribution */
 .attribution {
   font-size: 11px;
