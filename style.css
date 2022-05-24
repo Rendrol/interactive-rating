@@ -84,6 +84,11 @@ h1 {
   color: white;
 }
 
+#clicked {
+  background-color: hsl(216, 12%, 54%) !important;
+  color: white !important;
+}
+
 /* thank you section */
 #thankyou-section {
   text-align: center;
