@@ -9,7 +9,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-- [Author](#author)
+- [Author: Rendrol](#author)
 
 ## Overview
 
@@ -64,7 +64,7 @@ $(".rating").click(function (e) {
 });
 ```
 
-## Author: Rendrol
+## Author
 
 - Github - [Rendrol](https://github.com/Rendrol)
 - Frontend Mentor - [@Rendrol](https://www.frontendmentor.io/profile/Rendrol)
