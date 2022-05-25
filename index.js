@@ -7,10 +7,10 @@ $(window).on("load", function () {
     //rating score
     let rating = $(".rating").index(this) + 1;
     $("button").click(function (e) {
-      window.location.replace("./thankyou.html");
-      $(".rating-result").text("sdcvswdcwa5");
+      $(".rating-result").text("You selected " + rating + " out of 5");
+      $("#rating-section").css("display", "none");
+      $("#thankyou-section").css("display", "inline-block");
       console.log(rating);
     });
-    // $(".rating-result").text("You selected " + rating + " out of 5");
   });
 });

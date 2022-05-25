@@ -92,6 +92,7 @@ h1 {
 /* thank you section */
 #thankyou-section {
   text-align: center;
+  display: none;
 }
 
 #thankyou-section img {
